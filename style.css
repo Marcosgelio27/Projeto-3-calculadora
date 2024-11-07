@@ -1,0 +1,43 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.base {
+    margin: 15% 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 80%;
+    height: 10%;
+    background-color: white;
+}
+
+.botao {
+    cursor: pointer;
+    font-size: 30px;
+    width: 42.5px;
+    height: 42.5px;
+    border-radius: 8px;
+}
+
+.fileira {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-fileiras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

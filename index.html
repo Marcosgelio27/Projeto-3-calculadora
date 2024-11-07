@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="base">
+        <h1 class="display">
+            <span class="display-texto" id="display"></span>
+        </h1>
+        <div class="botoes-fileiras">
+            <div class="fileira">
+                <button onclick="AdicionarNumero(1)" class="botao">1</button>
+                <button onclick="AdicionarNumero(2)" class="botao">2</button>
+                <button onclick="AdicionarNumero(3)" class="botao">3</button>
+                <button onclick="AdicionarSinal(1)" class="botao">+</button>
+            </div>
+            <div class="fileira">
+                <button onclick="AdicionarNumero(4)" class="botao">4</button>
+                <button onclick="AdicionarNumero(6)" class="botao">6</button>
+                <button onclick="AdicionarNumero(5)" class="botao">5</button>
+                <button onclick="AdicionarSinal(2)" class="botao">-</button>
+            </div>
+            <div class="fileira" >
+                <button onclick="AdicionarNumero(7)" class="botao">7</button>
+                <button onclick="AdicionarNumero(8)" class="botao">8</button>
+                <button onclick="AdicionarNumero(9)" class="botao">9</button>
+                <button onclick="FinalizarConta()" class="botao">=</button>
+            </div>
+            <div class="fileira">
+                <button onclick="AdicionarSinal(4)" class="botao">*</button>
+                <button onclick="AdicionarNumero(0)" class="botao">0</button>
+                <button onclick="AdicionarSinal(3)" class="botao">/</button>
+                <button onclick="Limpar()" class="botao">L</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
